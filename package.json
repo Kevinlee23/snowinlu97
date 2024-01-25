@@ -1,0 +1,29 @@
+{
+  "name": "snowinlu97",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.6",
+    "path": "^0.12.7",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.3",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
